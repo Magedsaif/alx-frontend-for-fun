@@ -10,7 +10,7 @@ import re
 
 def convert_markdown_to_html(input_file, output_file):
     """
-    Converts a Markdown file to HTML and writes the output to a file.
+    Converts Markdown to HTML.
     """
 
     if not (os.path.exists(input_file) and os.path.isfile(input_file)):
